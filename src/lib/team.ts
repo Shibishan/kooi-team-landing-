@@ -4,7 +4,7 @@ export type Player = { name: string; role: string; style: string; tag?: string; 
 export const squad: Player[] = [
   { name: "Vithushan", role: "Wicket Keeper Batsman", style: "Left-hand bat", tag: "Captain", photo: "/vithu.png", hype: "The general behind the stumps. Reads the game before it happens, leads from the front and never lets KOOI TEAM back down." },
   { name: "Niroshan", role: "All-rounder", style: "Left-hand bat · Right-arm bowl", tag: "Vice Captain", photo: "/niroshan.jpeg", hype: "Bat or ball — he changes the match either way. The calm right hand of the captain and the spark when the team needs fire." },
-  { name: "Shibishan", role: "Batting All-rounder", style: "Right-hand", tag: "The Finisher", photo: "/shibishan.jpeg", hype: "When the run rate climbs and the pressure peaks, the crowd waits for one name. Shibishan walks in, the field spreads, and the ball keeps disappearing over the rope. Game changer. Match finisher. Poompukar's storm." },
+  { name: "Shibishan", role: "Batting All-rounder", style: "Right-hand", tag: "The Finisher", photo: "/shibi.png", hype: "When the run rate climbs and the pressure peaks, the crowd waits for one name. Shibishan walks in, the field spreads, and the ball keeps disappearing over the rope. Game changer. Match finisher. Poompukar's storm." },
   { name: "Kithushan", role: "Bowling All-rounder", style: "Right-hand", photo: "/kithu2.jpeg" },
   { name: "Mathurangan", role: "Fast Bowler", style: "Right-hand",photo:"/mathurangan.png" },
   { name: "Kishan", role: "Batsman", style: "Right-hand bat",photo: "/kishannew.png" },
