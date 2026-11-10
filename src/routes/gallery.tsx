@@ -6,7 +6,29 @@ export const Route = createFileRoute("/gallery")({
 });
 
 // Add photos here later: { src: "...", caption: "2011 – first match" }
-const photos: { src: string; caption: string }[] = [];
+const photos = [
+  {
+    src: "/history/kooisc.png",
+    caption: "2022 — Old and new Kooi players reunited for a match after a long time.",
+  },
+  {
+    src: "/history/kooioutdoor.jpeg",
+    caption:
+      "May 2026 — Kooi's first outdoor series at Agini Star Ground, won 2–1 against Sustains.",
+  },
+  {
+    src: "/history/kooiindoor.jpeg",
+    caption: "2026 — Cricket at Friends Arena Indoor.",
+  },
+  {
+    src: "/history/kooitrip.jpeg",
+    caption: "September 2026 — A memorable team trip to Yuhibuhi Forest.",
+  },
+  {
+    src: "/history/kooibats.jpeg",
+    caption: "2026 — Kooi players' bats at Friends Sports Arena.",
+  },
+];
 
 function Gallery() {
   const slots = photos.length ? photos : Array.from({ length: 8 }, () => null);
