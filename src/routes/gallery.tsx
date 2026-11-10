@@ -41,7 +41,7 @@ function Gallery() {
         {slots.map((p, i) =>
           p ? (
             <figure key={i} className="overflow-hidden rounded-2xl border border-primary/40 bg-card shadow-[0_20px_60px_-30px_var(--primary)]">
-              <img src={p.src} alt={p.caption} className="aspect-square w-full object-cover" />
+              <img src={p.src} alt={p.caption} className="h-auto w-full" />
               <figcaption className="p-2 text-sm text-muted-foreground">{p.caption}</figcaption>
             </figure>
           ) : (
