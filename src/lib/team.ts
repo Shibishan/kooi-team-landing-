@@ -9,7 +9,7 @@ export const squad: Player[] = [
   { name: "Mathurangan", role: "Fast Bowler", style: "Right-hand",photo:"/mathu.jpeg" },
   { name: "Kishan", role: "Batsman", style: "Right-hand bat",photo: "/kishan.jpeg" },
   { name: "Abishek", role: "Batsman", style: "Right-hand bat" },
-  { name: "Thanushan", role: "Batsman", style: "Left-hand bat" },
+  { name: "Thanushan", role: "Batsman", style: "Left-hand bat",photo: "/thanu.jpeg" },
   { name: "Satheesh", role: "Batsman", style: "Right-hand bat", photo: "/satheesh.jpeg" },
   { name: "Praveen", role: "Batsman", style: "Right-hand bat", photo: "/praveen.jpeg" },
   { name: "PK", role: "Batting All-rounder", style: "Right-hand bat",photo: "/pk.jpeg" },
