@@ -7,7 +7,7 @@ export const squad: Player[] = [
   { name: "Shibishan", role: "Batting All-rounder", style: "Right-hand", tag: "The Finisher", photo: "/shibishan.jpeg", hype: "When the run rate climbs and the pressure peaks, the crowd waits for one name. Shibishan walks in, the field spreads, and the ball keeps disappearing over the rope. Game changer. Match finisher. Poompukar's storm." },
   { name: "Kithushan", role: "Bowling All-rounder", style: "Right-hand", photo: "/kithu2.jpeg" },
   { name: "Mathurangan", role: "Fast Bowler", style: "Right-hand",photo:"/mathurangan.png" },
-  { name: "Kishan", role: "Batsman", style: "Right-hand bat",photo: "/kishan.jpeg" },
+  { name: "Kishan", role: "Batsman", style: "Right-hand bat",photo: "/kishan.png" },
   { name: "Abishek", role: "Batsman", style: "Right-hand bat" },
   { name: "Thanushan", role: "Batsman", style: "Left-hand bat",photo: "/thanu.jpeg" },
   { name: "Satheesh", role: "Batsman", style: "Right-hand bat", photo: "/satheesh.jpeg" },
