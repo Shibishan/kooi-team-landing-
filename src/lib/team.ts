@@ -2,23 +2,23 @@ export type Player = { name: string; role: string; style: string; tag?: string; 
 
 // To add a photo later: set photo: "https://..." on a player.
 export const squad: Player[] = [
-  { name: "Vithushan", role: "Wicket Keeper Batsman", style: "Left-hand bat", tag: "Captain", photo: "/vithushan.jpeg", hype: "The general behind the stumps. Reads the game before it happens, leads from the front and never lets KOOI TEAM back down." },
+  { name: "Vithushan", role: "Wicket Keeper Batsman", style: "Left-hand bat", tag: "Captain", photo: "/vithu.png", hype: "The general behind the stumps. Reads the game before it happens, leads from the front and never lets KOOI TEAM back down." },
   { name: "Niroshan", role: "All-rounder", style: "Left-hand bat · Right-arm bowl", tag: "Vice Captain", photo: "/niroshan.jpeg", hype: "Bat or ball — he changes the match either way. The calm right hand of the captain and the spark when the team needs fire." },
   { name: "Shibishan", role: "Batting All-rounder", style: "Right-hand", tag: "The Finisher", photo: "/shibishan.jpeg", hype: "When the run rate climbs and the pressure peaks, the crowd waits for one name. Shibishan walks in, the field spreads, and the ball keeps disappearing over the rope. Game changer. Match finisher. Poompukar's storm." },
   { name: "Kithushan", role: "Bowling All-rounder", style: "Right-hand", photo: "/kithu2.jpeg" },
-  { name: "Mathurangan", role: "Fast Bowler", style: "Right-hand",photo:"/mathu.jpeg" },
+  { name: "Mathurangan", role: "Fast Bowler", style: "Right-hand",photo:"/mathurangan.png" },
   { name: "Kishan", role: "Batsman", style: "Right-hand bat",photo: "/kishan.jpeg" },
   { name: "Abishek", role: "Batsman", style: "Right-hand bat" },
   { name: "Thanushan", role: "Batsman", style: "Left-hand bat",photo: "/thanu.jpeg" },
   { name: "Satheesh", role: "Batsman", style: "Right-hand bat", photo: "/satheesh.jpeg" },
-  { name: "Praveen", role: "Batsman", style: "Right-hand bat", photo: "/praveen.jpeg" },
+  { name: "Praveen", role: "Batsman", style: "Right-hand bat", photo: "/praveen.png" },
   { name: "PK", role: "Batting All-rounder", style: "Right-hand bat",photo: "/pk.jpeg" },
   { name: "Rijithman", role: "Batsman", style: "Right-hand bat", photo: "/rijith.jpeg" },
-  { name: "Thanumithan", role: "Batting All-rounder", style: "Left-hand",photo:"/thanumithan.jpeg" },
+  { name: "Thanumithan", role: "Batting All-rounder", style: "Left-hand",photo:"/thanumithan.png" },
   { name: "Gowtham", role: "Wicket Keeper Batsman", style: "Right-hand bat",photo:"/gowtham.jpeg" },
   { name: "Arutchan", role: "Batsman", style: "Left-hand bat" },
-  { name: "Jewarman", role: "Batsman", style: "Right-hand bat" },
-  { name: "Thimothi", role: "Batsman", style: "Left-hand bat" },
+  { name: "Jewarman", role: "Batsman", style: "Right-hand bat",photo:"/jwarman.png" },
+  { name: "Thimothi", role: "Batsman", style: "Left-hand bat",photo:"/thimothi.png" },
 ];
 
 export const timeline = [
